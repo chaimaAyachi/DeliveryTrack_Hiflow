@@ -9,7 +9,13 @@ let transalation= cy.fixture('fixtures/fr.json')
 describe('template spec', () => {
   beforeEach(() => {
     // Avant chaque test, visiter cette URL
-    cy.visit('https://test-track.hiflow.com/fr/05D2E6D41D54CEA');
+    //cy.visit('https://test-track.hiflow.com/fr/05D2E6D41D54CEA');
+    cy.request({
+      url: 'https://test-track.hiflow.com/fr/05D2E6D41D54CEA', // Remplacez par l'URL de votre choix
+      headers: {
+        'Accept-Language': 'fr;q=1,en;q=0.9,es;q=0.8,de;q=0.7,it;q=0.6,nl;q=0.5,pt;q=0.4'
+      }
+    })
   });
 
   it('checking elements', () => {
