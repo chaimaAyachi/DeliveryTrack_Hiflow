@@ -1,0 +1,26 @@
+{
+    "Transfert": "Your transfer",
+    "Status": "Delivered",
+    "Tracking": "Tracking",
+    "Details": "Transfer details",
+    "Delivery_Adress": "Delivery address",
+    "Adress": "Address",
+    "City": "City",
+    "Country": "Country",
+    "Contact": "Contact name",
+    "Phone": "Phone number",
+    "Email": "Email",
+    "Comments": "Comments",
+    "Vehicle":"Vehicle",
+    "Brand": "Brand & Model",
+    "Registr":"Registration",
+    "Chassis": "Chassis number",
+    "Motor": "Motorization",
+    "Provider":"Service provider",
+    "Services": "Services",
+    "topOfpage": "Top of the page",
+    "EN": "English"
+
+
+  }
+  

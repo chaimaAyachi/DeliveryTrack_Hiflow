@@ -1,14 +1,15 @@
 {
     "Transport": "Votre transport",
     "Status": "livré",
-    "Tracking": "Suivi",
+    "Suivi": "Suivi",
     "Details": "Détails du transport",
     "Documents": "Documents",
     "Adress": "Adresse de livraison",
     "Vehicle":"Véhicule",
     "Provider":"Prestataire",
     "Services": "Services",
-    "topOfpage": "Haut de page"
+    "topOfpage": "Haut de page",
+    "EN": "English"
 
 
   }

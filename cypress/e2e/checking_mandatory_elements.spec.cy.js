@@ -1,5 +1,5 @@
 
-describe('template spec', () => {
+describe('Check all the mandatory page elements', () => {
 
   let translation;
 
@@ -22,6 +22,8 @@ describe('template spec', () => {
   it('checking elements', () => {
     //Client name should exist
     cy.get('.heading-1.mr-3').should('exist')
+    //Langage icon should exist
+    cy.get('button#headlessui-menu-button-\\:R1j6\\:').should('exist')
     //"Your transfer" title and section should exist
     cy.get('.py-64 > .heading-1').should('exist')
     cy.get('.mt-24.w-full.p-9.border-0.bg-white.rounded-md.mb-16.relative.flex.align-center.items-center').should('exist')
