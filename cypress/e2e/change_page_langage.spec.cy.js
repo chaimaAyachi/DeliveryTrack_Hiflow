@@ -12,7 +12,7 @@ describe('Change the page langage', () => {
         // Avant chaque test, visiter cette URL
         //cy.visit('https://test-track.hiflow.com/fr/05D2E6D41D54CEA');
         cy.visit({
-          url: 'https://test-track.hiflow.com/fr/05D2E6D41D54CEA', // Remplacez par l'URL de votre choix
+          url: 'https://test-track.hiflow.com/fr/05D2E6D41D54CEA', 
           headers: {
             'Accept-Language': 'fr;q=1,en;q=0.9,es;q=0.8,de;q=0.7,it;q=0.6,nl;q=0.5,pt;q=0.4'
           }
@@ -36,7 +36,7 @@ describe('Change the page langage', () => {
 
         // click on the Transfer details tab
         cy.contains(translation1.Details).should('exist').click();
-        
+
         //check that Transfer details elements are in english
         cy.contains(translation1.Delivery_Adress).should('exist');
         cy.contains(translation1.Adress).should('exist');
